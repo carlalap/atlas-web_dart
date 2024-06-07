@@ -32,11 +32,11 @@ Beyond the core libraries, many APIs are provided through a comprehensive set of
 
 Additionally, third-party publishers and the broader community publish thousands of packages, with support for features like these:
 
-*[XML](https://pub.dev/packages/xml)
-*[Windows integration](https://pub.dev/packages/win32)
-*[SQLite](https://pub.dev/packages/sqflite_common)
-*[compression](https://pub.dev/packages/archive)
+* [XML](https://pub.dev/packages/xml)
+* [Windows integration](https://pub.dev/packages/win32)
+* [SQLite](https://pub.dev/packages/sqflite_common)
+* [compression](https://pub.dev/packages/archive)
 
 To see a series of working examples featuring the Dart core libraries, read the core library documentation. To find additional APIs, check out the commonly used packages page.
 
-*[Dart Packages](https://dart.dev/resources/useful-packages "Useful Dart Packages")
+* [Dart Packages](https://dart.dev/resources/useful-packages "Useful Dart Packages")
