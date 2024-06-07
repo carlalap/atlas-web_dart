@@ -1,6 +1,6 @@
 # HELLO DART
 
-Dart overview
+## Dart overview
 
 Dart is a language designed specifically for creating fast and efficient applications across various platforms (web, mobile, desktop). It prioritizes both rapid development (through features like sub-second hot reload) and delivering high-quality experiences in the final product. This focus on client-side development is reflected in its technical design choices. Beyond its role in powering Flutter, Dart offers functionalities for core developer tasks like code formatting, analysis, and testing.
 
@@ -8,8 +8,8 @@ Dart is a language designed specifically for creating fast and efficient applica
 
 Dart boasts a type-safe system with static checks guaranteeing a variable's value aligns with its declared type (sound typing). While types are mandatory, optional type annotations are possible thanks to type inference. Dart's flexibility caters to dynamic use cases by allowing the dynamic type with runtime checks, valuable for experimentation or highly dynamic code.  Furthermore, Dart enforces sound null safety – variables cannot be null unless explicitly declared as such. This static analysis prevents null exceptions at runtime. Unlike some null-safe languages, Dart guarantees non-nullable variables can never be null, even at runtime, demonstrably through debugging. The provided code snippet exemplifies various Dart features like libraries, asynchronous calls, nullable/non-nullable types, and more. For a deeper dive, explore the Dart language tour.
 
-Dart: The libraries
-#
+## Dart: The libraries
+
 Dart has a rich set of core libraries, providing essentials for many everyday programming tasks:
 
 Built-in types, collections, and other core functionality for every Dart program (dart:core)
