@@ -24,19 +24,19 @@ Concurrent programming using isolates—independent workers that are similar to 
 HTML elements and other resources for web-based applications that need to interact with the browser and the Document Object Model (DOM) (dart:html)
 Beyond the core libraries, many APIs are provided through a comprehensive set of packages. The Dart team publishes many useful supplementary packages, such as these:
 
-[characters] (https://pub.dev/packages/characters "characters")
-[intl] (https://pub.dev/packages/intl "intl: 0.19.0")
-[http] (https://pub.dev/packages/http "http")
-[crypto] (https://pub.dev/packages/crypto "crypto")
-[markdown] (https://pub.dev/packages/markdown "markdown")
+* [characters](https://pub.dev/packages/characters)
+* [intl](https://pub.dev/packages/intl)
+* [http](https://pub.dev/packages/http)
+* [crypto](https://pub.dev/packages/crypto)
+* [markdown](https://pub.dev/packages/markdown)
 
 Additionally, third-party publishers and the broader community publish thousands of packages, with support for features like these:
 
-[XML] (https://pub.dev/packages/xml "XML")
-Windows integration
-SQLite
-compression
+*[XML](https://pub.dev/packages/xml)
+*[Windows integration](https://pub.dev/packages/win32)
+*[SQLite](https://pub.dev/packages/sqflite_common)
+*[compression](https://pub.dev/packages/archive)
 
 To see a series of working examples featuring the Dart core libraries, read the core library documentation. To find additional APIs, check out the commonly used packages page.
 
-[Dart Packages](https://dart.dev/resources/useful-packages "Useful Dart Packages")
+*[Dart Packages](https://dart.dev/resources/useful-packages "Useful Dart Packages")
