@@ -1,4 +1,5 @@
-/* Write a Dart program that prints exactly "Programming is like building a multilingual puzzle,
+/* Task1. The Quotes
+Write a Dart program that prints exactly "Programming is like building a multilingual puzzle,
 followed by a new line.
 Use the function print*/
 void main() {

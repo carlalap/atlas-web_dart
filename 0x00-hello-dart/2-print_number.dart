@@ -1,4 +1,5 @@
-/* Complete this source code in order to print the integer stored in the variable number, followed by Battery street, followed by a new line.
+/* Task2. Print Number
+Complete this source code in order to print the integer stored in the variable number, followed by Battery street, followed by a new line.
 The output of the script should be:
 the number, followed by Battery street,
 followed by a new line
