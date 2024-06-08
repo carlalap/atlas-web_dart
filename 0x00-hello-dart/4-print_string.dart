@@ -8,6 +8,5 @@ You are not allowed to use any loops or conditional statement
 Your program should be maximum 5 lines long */
 void main() {
   String str = "Holberton School";
-  print(str*3);
-  print("${str.substring(0,9)}\n");
+  print((str*3) + "\n${str.substring(0,9)}\n");
 }
