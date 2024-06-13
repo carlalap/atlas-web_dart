@@ -6,7 +6,7 @@ class Password {
   // Getter
   String get password => _password;
 
-  // Setter - it changes the password for a new one
+  // Setter - it changes the password for a new one - Mutable
   set password(String password) {
     _password = password;
   }
