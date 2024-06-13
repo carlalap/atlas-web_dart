@@ -1,3 +1,5 @@
+// task 6. Inheritance
+// 6-inheritance.dart file
 import '6-password.dart';
 
 class User extends Password {

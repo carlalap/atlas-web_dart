@@ -1,6 +1,5 @@
 // task6. Inheritance
 // 6-password.dart file:
-
 class Password {
   String? _password;
 
@@ -8,7 +7,7 @@ class Password {
 
   bool isValid() {
     if (_password == null) return false;
-    if (_password!.length < 8 || _password!.length > 16) return false;
+    if (_password!.length < 8 && _password!.length > 16) return false;
     if (!_password!.contains(RegExp(r'[A-Z]'))) return false;
     if (!_password!.contains(RegExp(r'[a-z]'))) return false;
     if (!_password!.contains(RegExp(r'[0-9]'))) return false;
