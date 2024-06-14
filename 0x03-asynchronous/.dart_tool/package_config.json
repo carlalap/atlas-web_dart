@@ -15,9 +15,9 @@
     },
     {
       "name": "http",
-      "rootUri": "file:///home/carlalap/.pub-cache/hosted/pub.dev/http-1.2.1",
+      "rootUri": "file:///home/carlalap/.pub-cache/hosted/pub.dev/http-0.13.6",
       "packageUri": "lib/",
-      "languageVersion": "3.3"
+      "languageVersion": "2.19"
     },
     {
       "name": "http_parser",
@@ -62,19 +62,13 @@
       "languageVersion": "2.17"
     },
     {
-      "name": "web",
-      "rootUri": "file:///home/carlalap/.pub-cache/hosted/pub.dev/web-0.5.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.3"
-    },
-    {
       "name": "rick_and_morty",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2024-06-14T17:36:53.186105Z",
+  "generated": "2024-06-14T23:48:52.032984Z",
   "generator": "pub",
   "generatorVersion": "3.4.1",
   "flutterRoot": "file:///home/carlalap/development/flutter",

@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 Future<void> printRmCharacters() async {
-  const String url = 'https://rickandmortyapi.com/api/character';
+  const String url = 'https://rickandmortyapi.com/api/character/';
 
   try {
     // Realiza la solicitud HTTP
@@ -17,10 +17,9 @@ Future<void> printRmCharacters() async {
         print(character['name']); // Imprime el nombre de cada personaje
       }
     } else {
-      print(
-          'Failed to load characters'); // Mensaje en caso de fallo en la solicitud
+      print('Failed to fetch data: ${response.statusCode}');
     }
-  } catch (e) {
-    print('Error caught: $e'); // Captura e imprime cualquier error
+  } catch (err) {
+    print('Error caught: $err'); // Captura e imprime cualquier error
   }
 }
