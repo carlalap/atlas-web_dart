@@ -2,6 +2,8 @@
 import "3-util.dart";
 import "dart:convert";
 
+// greetUser gets the user data by calling
+// fetchUserData, decodes the JSON, and returns a greeting.
 Future<String> greetUser() async {
   try {
     var strRepr = await fetchUserData();
@@ -9,10 +11,13 @@ Future<String> greetUser() async {
     var username = repr["username"];
     return 'Hello $username';
   } catch (error) {
+    // If an error occurs, it returns an error message.
     return 'error caught: <error>';
   }
 }
 
+// loginUser calls checkCredentials to verify the credentials. 
+// If they are valid, call greetUser and return their value.
 Future<String> loginUser() async {
   try {
     var credentialValid = await checkCredentials();
@@ -23,7 +28,7 @@ Future<String> loginUser() async {
       return 'Wrong credentials';
     }
   } catch (error) {
+    // If an error occurs, it returns an error message.
     return 'error caught: $error';
   }
-
 }
