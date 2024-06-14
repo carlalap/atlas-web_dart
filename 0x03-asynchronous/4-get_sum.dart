@@ -2,7 +2,7 @@
 import '4-util.dart';
 import 'dart:convert';
 
-Future<double> calculateTotal() async {
+Future<dynamic> calculateTotal() async {
   try {
     double price = 0;
 
@@ -17,9 +17,9 @@ Future<double> calculateTotal() async {
       final String productPriceStr = await fetchProductPrice(orderId);
       price += double.parse(productPriceStr);
     }
-
     return price;
   } catch (e) {
-    return -1;
+    int error = -1;
+    return error;
   }
 }
